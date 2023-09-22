@@ -1,24 +1,20 @@
-#container_menu {
-    display: flex;
-    background-color: rgb(83, 77, 77);
-    align-items: center;
+#container {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 20% 40% 40%;
+    grid-template-areas: 
+    "box1 box2"
+    "box3 box4";
+    grid-gap: 10px;
+    background-color: aqua;
+    color: blueviolet;
 
 }
-
-ul > li {
-    border-style:groove;
-    border-width: 2px;
-    display: inline-block;
-    padding: 10px;
-    margin: auto;
-    margin-top: auto;
-}
-
-ul > li:hover {
-    background-color: gray;
-}
-
-#menu {
-    margin: auto;
-    list-style-type: none;
+ 
+#box_menu {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
 }
