@@ -1,20 +1,36 @@
 #container {
+    background-color: grey;
+    border: 3px solid green;
+    padding: 15px;
     display: grid;
-    grid-template-columns: 20% 60% 20%;
-    grid-template-rows: 20% 40% 40%;
     grid-template-areas: 
-    "box1 box2"
-    "box3 box4";
-    grid-gap: 10px;
-    background-color: aqua;
-    color: blueviolet;
+    'sidebar nav nav nav'
+    'sidebar cont cont cont'
+    'sidebar footer footer footer';
+
 
 }
- 
-#box_menu {
-    background-color: green;
-    color: white;
-    border-radius: 5px;
+
+#container div {
+    background-color: white;
     padding: 20px;
-    font-size: 150%;
+    border: 1px solid blue;
 }
+
+#sidebar {
+    grid-area: sidebar;
+}
+
+
+#nav {
+    grid-area:nav;
+}
+
+#content {
+    grid-area: cont;
+}
+
+#footer {
+    grid-area: footer;
+}
+
