@@ -23,20 +23,26 @@ body {
 
 #sidebar {
     /*grid-area: sidebar;*/
-    grid-column-start: 1;
-    grid-row-start: 1;
-    grid-row-end: 11;
+    grid-column: 1;
+    grid-row: 1 / 10;
+
 }
 
 #nav {
     /*grid-area: nav;*/
+    grid-column: 2 / 11;
+    grid-row: 1;
 }
 
 #cont {
     /*grid-area: cont;*/
+    grid-column: 2 / 11;
+    grid-row: 2 / 10;
 }
 
 #footer {
     /*grid-area: footer;*/
+    grid-column: 1 / 11;
+    grid-row: 10;
 }
 
