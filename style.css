@@ -1,36 +1,42 @@
+body {
+    background-color: black;
+}
+
 #container {
-    background-color: grey;
-    border: 3px solid green;
-    padding: 15px;
+    height: 100vh;
+    background-color: rgb(148, 26, 26);
     display: grid;
-    grid-template-areas: 
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(10, 10%);
+    /*grid-template-areas: 
     'sidebar nav nav nav'
     'sidebar cont cont cont'
-    'sidebar footer footer footer';
+    'sidebar footer footer footer';*/
 
 
 }
 
 #container div {
     background-color: white;
-    padding: 20px;
     border: 1px solid blue;
 }
 
 #sidebar {
-    grid-area: sidebar;
+    /*grid-area: sidebar;*/
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 11;
 }
-
 
 #nav {
-    grid-area:nav;
+    /*grid-area: nav;*/
 }
 
-#content {
-    grid-area: cont;
+#cont {
+    /*grid-area: cont;*/
 }
 
 #footer {
-    grid-area: footer;
+    /*grid-area: footer;*/
 }
 
