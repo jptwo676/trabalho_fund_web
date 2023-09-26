@@ -1,30 +1,25 @@
 body {
-    background-color: black;
+    padding: 0;
+    margin: 0;
 }
 
 #container {
-    height: 100vh;
+    width: 100%;
+    height: 915px;
     background-color: rgb(148, 26, 26);
     display: grid;
     grid-template-columns: repeat(10, 10%);
     grid-template-rows: repeat(10, 10%);
-    /*grid-template-areas: 
-    'sidebar nav nav nav'
-    'sidebar cont cont cont'
-    'sidebar footer footer footer';*/
-
 
 }
 
-#container div {
-    background-color: white;
-    border: 1px solid blue;
-}
 
 #sidebar {
     /*grid-area: sidebar;*/
     grid-column: 1;
     grid-row: 1 / 10;
+    background-color: white;
+    border: 1px solid black;
 
 }
 
@@ -32,17 +27,40 @@ body {
     /*grid-area: nav;*/
     grid-column: 2 / 11;
     grid-row: 1;
+    background-color: white;
+    border: 1px solid black;
 }
 
 #cont {
     /*grid-area: cont;*/
     grid-column: 2 / 11;
     grid-row: 2 / 10;
+    background-color: white;
+    border: 1px solid black;
 }
 
 #footer {
     /*grid-area: footer;*/
     grid-column: 1 / 11;
     grid-row: 10;
+    background-color: white;
+    border: 1px solid black;
+}
+
+/* formatação das listas abaixo */
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    
+
+
+}
+ul > li {
+    display: inline-block; /*faz o menu horizontal*/
+
+}
+ li:hover {
+    background-color: grey;
 }
 
