@@ -6,7 +6,6 @@ body {
 #container {
     width: 100%;
     height: 915px;
-    background-color: rgb(148, 26, 26);
     display: grid;
     grid-template-columns: repeat(10, 10%);
     grid-template-rows: repeat(10, 10%);
@@ -14,52 +13,48 @@ body {
 }
 
 
-#sidebar {
-    /*grid-area: sidebar;*/
-    grid-column: 1;
-    grid-row: 1 / 10;
+
+#nav { /*nav da lista */
+    /*grid-area: nav;*/ 
+
+    grid-column: 1 / 11;
+    grid-row: 1;
     background-color: white;
     border: 1px solid black;
 
 }
 
-#nav {
-    /*grid-area: nav;*/
-    grid-column: 2 / 11;
-    grid-row: 1;
-    background-color: white;
-    border: 1px solid black;
+li {
+    display: inline-flex;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+ul {
+    text-align: center;
 }
 
 #cont {
     /*grid-area: cont;*/
-    grid-column: 2 / 11;
+    display: flex;
+    grid-column: 1 / 11;
     grid-row: 2 / 10;
     background-color: white;
     border: 1px solid black;
+    
 }
 
 #footer {
     /*grid-area: footer;*/
+    display: flex;
     grid-column: 1 / 11;
     grid-row: 10;
     background-color: white;
     border: 1px solid black;
 }
 
-/* formatação das listas abaixo */
 
-ul {
-    display: flex;
-    justify-content: space-evenly;
-    
-
-
-}
-ul > li {
-    display: inline-block; /*faz o menu horizontal*/
-
-}
  li:hover {
     background-color: grey;
 }
