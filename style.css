@@ -35,23 +35,30 @@ ul {
 
 #cont {
     display: flex;
-    grid-column: 1 / 11;
+    grid-column: -11 / -1 ;
     grid-row: 2 / 10;
     background-color: white;
     border: 1px solid black;
     
 }
 
-#footer {
+footer {
     display: flex;
-    grid-column: 1 / 11;
+    text-align: center;
+    justify-content: center;
+    grid-column: 11/1;
     grid-row: 10;
     background-color: white;
     border: 1px solid black;
 }
 
 
- li:hover {
+li:hover {
+    border-radius: 10%;
     background-color: grey;
+}
+
+#data {
+    margin:auto;
 }
 
