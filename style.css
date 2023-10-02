@@ -15,8 +15,6 @@ body {
 
 
 #nav { /*nav da lista */
-    /*grid-area: nav;*/ 
-
     grid-column: 1 / 11;
     grid-row: 1;
     background-color: white;
@@ -36,7 +34,6 @@ ul {
 }
 
 #cont {
-    /*grid-area: cont;*/
     display: flex;
     grid-column: 1 / 11;
     grid-row: 2 / 10;
@@ -46,7 +43,6 @@ ul {
 }
 
 #footer {
-    /*grid-area: footer;*/
     display: flex;
     grid-column: 1 / 11;
     grid-row: 10;
