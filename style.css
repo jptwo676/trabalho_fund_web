@@ -39,6 +39,9 @@ ul {
     display: flex;
     grid-column: -11 / -1 ;
     grid-row: 2 / 10;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
 }
 
 footer {
@@ -59,4 +62,8 @@ li:hover {
 
 #data {
     margin:auto;
+}
+
+#titulo{
+    text-align: left;
 }
