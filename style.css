@@ -53,12 +53,10 @@ ul {
 
 
 #cont {
-    display: flex;
-    grid-column: -11 / -1 ;
-    grid-row: 2 / 10;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 5%;
+    display: grid;
+    grid-column: 3/9;
+    grid-row: 3/9;
+    background-color: #1A1A1B;
 }
 
 footer {
