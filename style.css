@@ -74,7 +74,7 @@ footer {
 }
 
 
-li:hover {
+#listaNav > li:hover {
     border-radius: 10%;
     background-color: #818384;
 }
