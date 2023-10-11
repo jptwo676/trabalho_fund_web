@@ -15,11 +15,6 @@ body {
 }
 
 /* usaveis */
-.linha_unica {
-    font-size: 30px;
-    white-space: nowrap;
-    color: #818384;
-}
 
 
 /* nav-menu */
@@ -61,18 +56,39 @@ li {
 }
 
 
+/* lista - formacao*/
+
+#linhaFormacao {
+    font-size: 45px;
+    color: #818384;
+    margin: 0;
+    
+}
+
+#linhaFormacao > li {
+    font-size: 16px;
+    color: #D7DADC;
+    display: block;
+    line-height: 1px;
+    
+}
+
 
 
 /* lista - habiliades prog */
 
 #habilidadesP {
-    font-size: 35px;
+    font-size: 45px;
     color: #818384;
+    padding: 0;
+    
 }
 
 #habilidadesP > li {
     font-size: 16px;
     color: #D7DADC;
+    display: block;
+    line-height: 1px ;
 }
 
 
