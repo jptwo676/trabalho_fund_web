@@ -14,7 +14,10 @@ body {
 
 }
 
-/* usaveis */
+/* espaços */
+#espaco1 {
+    padding-bottom: 80px;
+}
 
 
 /* nav-menu */
@@ -56,22 +59,21 @@ li {
 }
 
 
-/* lista - formacao*/
+/* lista - modelo */
 
-#linhaFormacao {
+.lista {
     font-size: 45px;
     color: #818384;
     margin: 0;
-    
 }
 
-#linhaFormacao > li {
+.lista > li {
     font-size: 16px;
     color: #D7DADC;
     display: block;
     line-height: 1px;
-    
 }
+
 
 
 
