@@ -63,15 +63,21 @@ li {
 
 .lista {
     font-size: 45px;
-    color: #818384;
+    color: #D7DADC;
     margin: 0;
 }
 
 .lista > li {
     font-size: 16px;
-    color: #D7DADC;
+    color: #818384; 
     display: block;
     line-height: 1px;
+}
+
+.lista > ul {
+    font-size: 30px;
+    color: #818384;
+
 }
 
 
