@@ -1,3 +1,4 @@
+/* geral */
 body {
     padding: 0;
     margin: 0;
@@ -21,6 +22,7 @@ body {
 }
 
 
+/* nav-menu */
 #nav { 
     grid-column: 4 / 8;
     grid-row: 1;
@@ -36,6 +38,19 @@ body {
     
 }
 
+#nav > ul {
+    color: #D7DADC;
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+#listaNav > li:hover {
+    border-radius: 10%;
+    background-color: #818384;
+}
+
+
 li {
     display: inline-flex;
     padding: 20px;
@@ -45,15 +60,23 @@ li {
 
 }
 
-ul {
+
+
+
+/* lista - habiliades prog */
+
+#habilidadesP {
+    font-size: 35px;
+    color: #818384;
+}
+
+#habilidadesP > li {
+    font-size: 16px;
     color: #D7DADC;
-    text-align: center;
-    list-style-type: none;
-    padding: 0; /*mantem o padding da nav*/
 }
 
 
-
+/* compartimentos*/
 #cont {
     display: grid;
     grid-column: 3/9;
@@ -74,10 +97,7 @@ footer {
 }
 
 
-#listaNav > li:hover {
-    border-radius: 10%;
-    background-color: #818384;
-}
+
 
 #data {
     margin:auto;
@@ -94,8 +114,5 @@ footer {
 }
 
 
-#habilidadesP {
-    font-size: 35px;
-    color: #818384;
-}
+
 
