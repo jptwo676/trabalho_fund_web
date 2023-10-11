@@ -35,7 +35,7 @@ body {
 
     
 }
-
+ /*lista nav*/
 #nav > ul {
     color: #D7DADC;
     text-align: center;
@@ -58,6 +58,20 @@ li {
 
 }
 
+/*git e outros links*/
+
+.linkGit:link {
+    background-color: green;
+    
+}
+.linkGit:visited {
+    background-color: white;
+    
+}
+
+.linkGit:active {
+    color: black;
+}
 
 /* lista - modelo */
 
@@ -101,6 +115,12 @@ li {
 
 
 /* compartimentos*/
+
+.img {
+    
+}
+
+
 #cont {
     display: grid;
     grid-column: 3/9;
