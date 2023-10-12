@@ -94,8 +94,15 @@ li {
 
 }
 
+.listModel2 {
+    color: white;
 
+}
 
+.listModel2 > li{
+    color: white;
+    background-color: white;
+}
 
 /* lista - habiliades prog */
 
@@ -113,13 +120,28 @@ li {
     line-height: 1px ;
 }
 
-
-/* compartimentos*/
-
+/* img */
 .img {
-    
+    width:100%;
+    border-radius: 8px;
 }
 
+#fotoT {
+    width: 20%;
+    background-color: grey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    position: absolute;
+    bottom: 43%;
+    left: 55%;
+    border: #030303;
+    border-radius: 8px;
+}
+
+#jumpytexto {
+    text-align: center;
+}
+/* compartimentos*/
 
 #cont {
     display: grid;
