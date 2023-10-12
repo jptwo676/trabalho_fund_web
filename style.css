@@ -94,16 +94,23 @@ li {
 
 }
 
-.listModel2 {
-    color: white;
-
+/*modelo dos itens do port*/
+.listModel2 { 
+    color: #818384;
+    margin: 0;
 }
 
 .listModel2 > li{
-    color: white;
-    background-color: white;
+    color: #818384;
+    font-size: 16px;
+    display: block;
+    line-height: 1px;
 }
 
+.listModel2 > ul {
+    font-size: 30px;
+    color: #818384;
+}
 /* lista - habiliades prog */
 
 #habilidadesP {
@@ -113,12 +120,12 @@ li {
     
 }
 
-#habilidadesP > li {
+/*#habilidadesP > li {
     font-size: 16px;
     color: #D7DADC;
     display: block;
     line-height: 1px ;
-}
+}*/
 
 /* img */
 .img {
