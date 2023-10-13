@@ -123,23 +123,9 @@ li {
     font-size: 45px;
     color: #818384;
     padding: 0;
-    
+
 }
 
-/* lista focada em txt */
-
-.listaT {
-    font-size: 45px;
-    color: #D7DADC;
-    margin: 0;
-}
-
-.listaT > li {
-    color: #818384;
-    font-size: 16px;
-    display: block;
-    line-height: 0px;
-}
 
 /* img */
 .img {
