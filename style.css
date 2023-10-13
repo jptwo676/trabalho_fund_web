@@ -104,7 +104,7 @@ li {
     color: #818384;
     font-size: 16px;
     display: block;
-    line-height: 1px;
+    line-height: 0px;
 }
 
 .listModel2 > ul {
@@ -120,12 +120,6 @@ li {
     
 }
 
-/*#habilidadesP > li {
-    font-size: 16px;
-    color: #D7DADC;
-    display: block;
-    line-height: 1px ;
-}*/
 
 /* img */
 .img {
@@ -139,7 +133,6 @@ li {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
     position: absolute;
-    bottom: %;
     left: 55%;
     border: #030303;
     border-radius: 8px;
@@ -159,18 +152,17 @@ li {
     border: solid #262627;
 }
 
-footer {
-    display: flex;
-    text-align: center;
-    justify-content: center;
+
+/* footer */
+.contFooter {
     grid-column: 11/1;
     grid-row: 10;
     background-color: #1A1A1B;
     border: 1px solid black;
+    display: block;
+    text-align: center;
+    justify-content: center;
 }
-
-
-
 
 #data {
     margin:auto;
