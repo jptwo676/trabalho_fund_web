@@ -64,10 +64,13 @@ body {
 
 }
 
-#listaNav > li> a:visited {
-    color: green;
+#listaNav > li > a:visited {
+    color: rgb(58, 68, 40);
 }
 
+#listaNav > li {
+    color: green;
+}
 li {
     display: inline-flex;
     padding: 20px;
