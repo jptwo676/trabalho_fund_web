@@ -49,11 +49,24 @@ body {
     padding: 0;
 }
 
+/*interação da lista*/
 #listaNav > li:hover {
     border-radius: 10%;
     background-color: #818384;
 }
 
+#listaNav > li > a {
+    color: #D7DADC;
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+#listaNav > li> a:visited {
+    color: green;
+}
 
 li {
     display: inline-flex;
